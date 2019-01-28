@@ -1,0 +1,9 @@
+name: aws
+title: Check AWS Resources
+maintainer: matthew16550@matthew16550.com
+copyright: Matthew Leather
+license: Apache-2.0
+summary: InSpec profile to check the AWS resources in this stack
+version: 0.0.1-snapshot
+supports:
+- platform: aws

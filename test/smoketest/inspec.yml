@@ -1,0 +1,11 @@
+name: smoketest
+title: Smoke Testing
+maintainer: matthew16550@matthew16550.com
+copyright: Matthew Leather
+license: Apache-2.0
+summary: An InSpec profile to smoke test this stack
+version: 0.0.1-snapshot
+supports:
+- os-family: linux
+
+# Note we cant test AWS resources in this profile because of https://github.com/inspec/inspec/issues/2822
