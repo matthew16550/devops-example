@@ -45,7 +45,6 @@ Run `bin/stack-destroy.sh` to destroy everything except for the logs in CloudWat
 * Instance / DB sizing is chosen to suit the AWS Free Tier
 * Kong
   * Authentication for Admin API
-  * `KONG_DB_UPDATE_FREQUENCY` is too small
 * Kong Database
   * Enable deletion protection 
   * Backups
