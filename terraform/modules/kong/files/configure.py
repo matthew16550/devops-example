@@ -47,7 +47,7 @@ def wait_for_url(url):
         except urllib.error.URLError as e:
             print(e.reason)
 
-            time.sleep(5)
+        time.sleep(5)
 
 
 wait_for_url(admin_url)
